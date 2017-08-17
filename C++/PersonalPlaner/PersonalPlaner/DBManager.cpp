@@ -11,7 +11,7 @@ DBManager::DBManager(): db_(nullptr), is_existed_before(false)
 	}
 
 	//Loading DB or creating a new one if DB is not found in folder
-	error_check_.Check = sqlite3_open("PersonalPlanerDB(100).db", &db_);
+	error_check_.Check = sqlite3_open("PersonalPlanerDB(10k).db", &db_);
 }
 
 //Wrapper for sqlite3_exec
