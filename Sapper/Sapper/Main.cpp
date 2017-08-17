@@ -324,8 +324,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 void setNumbersAndBombs(HWND hWnd)
 {
-	//int bombNumber = (ButtNumberY * ButtNumberX) * 0.1;
-	int bombNumber = 5;
+	//number of bombs in field
+	int bombNumber = 10;
 	srand((unsigned int)time(NULL));
 	if (!bombs.empty())
 		bombs.clear();
