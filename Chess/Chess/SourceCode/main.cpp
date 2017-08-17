@@ -41,7 +41,7 @@ int main(void)
 	push_sprite.setPosition(610, 200);
 
 	Font font;
-	font.loadFromFile("JOKERMAN.ttf");
+	font.loadFromFile("Resources/JOKERMAN.ttf");
 	Text text("", font, 30);
 	
 	
@@ -485,7 +485,7 @@ void matrix_show(void)
 void introdaction(void)
 {
 	Font font;
-	font.loadFromFile("JOKERMAN.ttf");
+	font.loadFromFile("Resources/JOKERMAN.ttf");
 	Text text("Choose your option", font, 27);
 	text.setFillColor(Color::White);
 	text.setStyle(0);
@@ -499,7 +499,7 @@ void wrong_move(void)
 	int time = clock.getElapsedTime().asSeconds();
 	clock.restart();
 	Font font;
-	font.loadFromFile("JOKERMAN.ttf");
+	font.loadFromFile("Resources/JOKERMAN.ttf");
 	Text text("", font, 30);
 	text.setFillColor(Color::Red);
 	text.setStyle(0);
@@ -518,7 +518,7 @@ void wrong_move(void)
 void win(void)
 {
 	Font font;
-	font.loadFromFile("JOKERMAN.ttf");
+	font.loadFromFile("Resources/JOKERMAN.ttf");
 	Text text("", font, 35);
 	text.setFillColor(Color::Red);
 	text.setStyle(0);
@@ -557,7 +557,7 @@ void win(void)
 void cpu_thinking(void)
 {
 	Font font;
-	font.loadFromFile("JOKERMAN.ttf");
+	font.loadFromFile("Resources/JOKERMAN.ttf");
 	Text text("", font, 30);
 	text.setFillColor(Color(153,217,234));
 	text.setStyle(0);
@@ -577,7 +577,7 @@ void wrong_enter(void)
 	int time = clock.getElapsedTime().asSeconds();
 	clock.restart();
 	Font font;
-	font.loadFromFile("JOKERMAN.ttf");
+	font.loadFromFile("Resources/JOKERMAN.ttf");
 	Text text("", font, 30);
 	text.setFillColor(Color::Red);
 	text.setStyle(0);
@@ -597,7 +597,7 @@ void not_your_turn(void)
 	int time = clock.getElapsedTime().asSeconds();
 	clock.restart();
 	Font font;
-	font.loadFromFile("JOKERMAN.ttf");
+	font.loadFromFile("Resources/JOKERMAN.ttf");
 	Text text("", font, 30);
 	text.setFillColor(Color::Red);
 	text.setStyle(0);
