@@ -1,4 +1,4 @@
-#Overview
+# Overview
 The game was written in C style witout classes using SFML library. This is my final work of the C language course and first serious programm.
 
 ![chess1](https://user-images.githubusercontent.com/29663442/29417809-225058aa-8373-11e7-81db-39f5e17dd522.png)
