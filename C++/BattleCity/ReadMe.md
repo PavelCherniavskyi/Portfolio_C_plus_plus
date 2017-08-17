@@ -1,7 +1,9 @@
 # Overview
 The game was made with SFML library.
 4 levels are available.
-## Controls
+## Install
+To use debug x86 you should put in main Debug folder sfml-system-d-2.lib; sfml-window-d-2.lib; sfml-graphics-d-2.lib files from SFMLlib\binx86 folder. Release version on x86 will work fine. Also you can run BattleCity.exe build at root folder here.
+### Controls
 - Arrows, 
 - Shot - Space, 
 - Big shot - LCtrl, 
